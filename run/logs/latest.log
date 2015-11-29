@@ -1,0 +1,96 @@
+[11:57:03] [main/INFO]: Extra: []
+[11:57:03] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken{REDACTED}, --assetIndex, 1.8, --assetsDir, C:/Users/Nathaniel/.gradle/caches/minecraft/assets, --version, 1.8, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[11:57:03] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:57:03] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:57:03] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:57:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:57:03] [main/INFO]: Forge Mod Loader version 11.14.4.1563 for Minecraft 1.8 loading
+[11:57:03] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_75, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jre7
+[11:57:03] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[11:57:03] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:57:03] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[11:57:03] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[11:57:03] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:57:03] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:57:03] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:57:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:57:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:57:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:57:04] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[11:57:06] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[11:57:06] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:57:06] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:57:07] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:57:07] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:57:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:57:07] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[11:57:09] [Client thread/INFO]: Setting user: Player859
+[11:57:12] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:57:13] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 11/29/15 11:57 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.7.0_75, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 159985600 bytes (152 MB) / 432537600 bytes (412 MB) up to 1653604352 bytes (1577 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.3.12823 Compatibility Profile Context 13.352.1014.0' Renderer: 'AMD Radeon R9 255'
+[11:57:13] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[11:57:13] [Client thread/INFO]: MinecraftForge v11.14.4.1563 Initialized
+[11:57:13] [Client thread/INFO]: Replaced 204 ore recipies
+[11:57:14] [Client thread/INFO]: Completed early MinecraftForge initialization
+[11:57:14] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[11:57:14] [Client thread/INFO]: Searching C:\MinecraftModding\1.8\MystiCraft\run\mods for mods
+[11:57:18] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[11:57:18] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, MystiCraft] at CLIENT
+[11:57:18] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, MystiCraft] at SERVER
+[11:57:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MystiCraft
+[11:57:19] [Client thread/INFO]: Processing ObjectHolder annotations
+[11:57:19] [Client thread/INFO]: Found 384 ObjectHolder annotations
+[11:57:19] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[11:57:19] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[11:57:19] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[11:57:19] [Client thread/INFO]: Applying holder lookups
+[11:57:19] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[11:57:19] [Client thread/INFO]: Holder lookups applied
+[11:57:19] [Client thread/INFO]: Injecting itemstacks
+[11:57:19] [Client thread/INFO]: Itemstack injection complete
+[11:57:19] [Forge Version Check/INFO]: [Forge] Found status: UP_TO_DATE Target: null
+[11:57:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[11:57:20] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[11:57:20] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:57:20] [Thread-9/INFO]: OpenAL initialized.
+[11:57:20] [Sound Library Loader/INFO]: Sound engine started
+[11:57:24] [Client thread/INFO]: Max texture size: 16384
+[11:57:24] [Client thread/INFO]: Created: 16x16 textures-atlas
+[11:57:26] [Client thread/INFO]: Injecting itemstacks
+[11:57:26] [Client thread/INFO]: Itemstack injection complete
+[11:57:26] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[11:57:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MystiCraft
+[11:57:26] [Client thread/INFO]: SoundSystem shutting down...
+[11:57:26] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[11:57:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[11:57:26] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[11:57:26] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:57:26] [Thread-11/INFO]: OpenAL initialized.
+[11:57:27] [Sound Library Loader/INFO]: Sound engine started
+[11:57:29] [Client thread/INFO]: Max texture size: 16384
+[11:57:29] [Client thread/INFO]: Created: 512x512 textures-atlas
+[11:57:57] [Client thread/INFO]: Stopping!
+[11:57:57] [Client thread/INFO]: SoundSystem shutting down...
+[11:57:58] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
