@@ -1,5 +1,6 @@
 package com.earlofpenguins.mysticraft;
 
+import com.earlofpenguins.mysticraft.handler.ConfigurationHandler;
 import com.earlofpenguins.mysticraft.proxy.IProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -22,7 +23,7 @@ public class MystiCraft
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
     //Initialization phase for gui handler, tile entities, event handlers, recipe registration
     @Mod.EventHandler
