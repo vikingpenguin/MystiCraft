@@ -11,11 +11,4 @@ public abstract class CommonProxy implements IProxy
 
     }
 
-    public void init(FMLInitializationEvent e) {
-
-    }
-
-    public void postInit(FMLPostInitializationEvent e) {
-
-    }
 }
