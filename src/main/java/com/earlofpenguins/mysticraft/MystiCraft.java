@@ -1,6 +1,9 @@
 package com.earlofpenguins.mysticraft;
 
+import com.earlofpenguins.mysticraft.client.render.items.ItemRenderRegister;
 import com.earlofpenguins.mysticraft.handler.ConfigurationHandler;
+import com.earlofpenguins.mysticraft.init.ModItems;
+import com.earlofpenguins.mysticraft.proxy.CommonProxy;
 import com.earlofpenguins.mysticraft.proxy.IProxy;
 import com.earlofpenguins.mysticraft.utility.LogHelper;
 import com.sun.webpane.platform.graphics.Ref;
@@ -19,25 +22,29 @@ public class MystiCraft
     public static MystiCraft instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static IProxy proxy;
+    public static CommonProxy proxy;
 
     //Preinitalization phase for initializing items and blocks, loading configurations, key binding, initialize network handling etc.
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+        proxy.preInit(event);
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        ModItems.init();
         LogHelper.info("Pre-initialization complete.");
     }
     //Initialization phase for gui handler, tile entities, event handlers, recipe registration
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        proxy.init(event);
         LogHelper.info("Initialization complete.");
     }
     //Postinitialization
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
+        proxy.postInit(event);
         LogHelper.info("Post-initialization complete.");
     }
 }
