@@ -1,10 +1,9 @@
 package com.earlofpenguins.mysticraft.items;
 
+import com.earlofpenguins.mysticraft.creativetab.CreativeTabMystiCraft;
 import com.earlofpenguins.mysticraft.reference.Reference;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemMystiCraft extends Item
 {
@@ -12,6 +11,7 @@ public class ItemMystiCraft extends Item
     {
         super();
         this.setMaxStackSize(1);
+        this.setCreativeTab(CreativeTabMystiCraft.MystiCraftTab);
     }
 
     @Override

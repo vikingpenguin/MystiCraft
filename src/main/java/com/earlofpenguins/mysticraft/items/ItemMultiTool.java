@@ -7,6 +7,5 @@ public class ItemMultiTool extends ItemMystiCraft {
     {
         super();
         this.setUnlocalizedName("multiTool");
-        this.setCreativeTab(CreativeTabs.tabTools);
     }
 }

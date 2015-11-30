@@ -7,6 +7,5 @@ public class MysticalWood extends BlockMystiCraft
     public MysticalWood() {
         super();
         this.setUnlocalizedName("mysticalWood");
-        this.setCreativeTab(CreativeTabs.tabBlock);
     }
 }
