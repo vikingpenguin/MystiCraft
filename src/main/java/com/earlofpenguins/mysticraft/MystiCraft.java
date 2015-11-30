@@ -2,6 +2,7 @@ package com.earlofpenguins.mysticraft;
 
 import com.earlofpenguins.mysticraft.client.render.items.ItemRenderRegister;
 import com.earlofpenguins.mysticraft.handler.ConfigurationHandler;
+import com.earlofpenguins.mysticraft.init.ModBlocks;
 import com.earlofpenguins.mysticraft.init.ModItems;
 import com.earlofpenguins.mysticraft.proxy.CommonProxy;
 import com.earlofpenguins.mysticraft.proxy.IProxy;
@@ -31,6 +32,7 @@ public class MystiCraft
         proxy.preInit(event);
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         ModItems.init();
+        ModBlocks.init();
         LogHelper.info("Pre-initialization complete.");
     }
     //Initialization phase for gui handler, tile entities, event handlers, recipe registration

@@ -18,6 +18,5 @@ public final class ItemRenderRegister {
 
     public static void registerModel(ItemMystiCraft item) {
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedNameOnly(), "inventory"));
-        LogHelper.info(Reference.MOD_ID + ":" + item.getUnlocalizedNameOnly());
     }
 }
