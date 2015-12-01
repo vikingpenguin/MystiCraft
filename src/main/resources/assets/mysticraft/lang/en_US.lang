@@ -1,4 +1,15 @@
 < en_US.lang - English localization file for the mod Tutorial >
+# Items
 item.mysticraft:multiTool.name=Multitool
+item.mysticraft:wings.name=Wings
 
+# Blocks
 item.mysticraft:mysticalWood.name=Mystical Wood
+
+# Creative Tabs
+itemGroup.mysticraft=MystiCraft
+
+# Keys
+keys.mysticraft.category=MystiCraft
+keys.mysticraft.charge=Charge
+keys.mysticraft.release=Release

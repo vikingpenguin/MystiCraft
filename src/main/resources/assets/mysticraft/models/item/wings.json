@@ -1,0 +1,6 @@
+{
+	"parent":"MystiCraft:item/standard_item",
+	"textures": {
+		"layer0":"MystiCraft:items/wings"	
+	}
+}
