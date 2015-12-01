@@ -2,18 +2,12 @@ package com.earlofpenguins.mysticraft.items;
 
 import com.earlofpenguins.mysticraft.creativetab.CreativeTabMystiCraft;
 import com.earlofpenguins.mysticraft.reference.Reference;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.util.EnumHelper;
 
-public class ItemMystiCraft extends Item
-{
-
-    public ItemMystiCraft()
-    {
-        super();
-        this.setMaxStackSize(1);
+public class ItemMystiCraftArmor extends ItemArmor {
+    public ItemMystiCraftArmor(ArmorMaterial material, int renderIndex, int armorType) {
+        super(material, renderIndex, armorType);
         this.setCreativeTab(CreativeTabMystiCraft.MystiCraftTab);
     }
 
@@ -38,4 +32,5 @@ public class ItemMystiCraft extends Item
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
+
 }

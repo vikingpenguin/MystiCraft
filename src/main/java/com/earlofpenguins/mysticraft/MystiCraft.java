@@ -3,6 +3,7 @@ package com.earlofpenguins.mysticraft;
 import com.earlofpenguins.mysticraft.client.handler.KeyInputEventHandler;
 import com.earlofpenguins.mysticraft.client.render.items.ItemRenderRegister;
 import com.earlofpenguins.mysticraft.handler.ConfigurationHandler;
+import com.earlofpenguins.mysticraft.handler.TickHandlers;
 import com.earlofpenguins.mysticraft.init.ModBlocks;
 import com.earlofpenguins.mysticraft.init.ModItems;
 import com.earlofpenguins.mysticraft.init.Recipes;
@@ -47,6 +48,7 @@ public class MystiCraft
         proxy.init(event);
         Recipes.init();
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+        FMLCommonHandler.instance().bus().register(new TickHandlers());
         LogHelper.info("Initialization complete.");
     }
     //Postinitialization
