@@ -9,7 +9,7 @@ public class TickHandlers
 {
     @SubscribeEvent
     public void onPlayerTick(TickEvent.PlayerTickEvent event) {
-        //Test if the player has wings on and if so grant flight. If he has no armor or different armor take away flight.
+        //Test if the player has ArmorTest on and if so grant flight. If he has no armor or different armor take away flight.
         event.player.capabilities.allowFlying = event.player.getCurrentArmor(2) != null && event.player.getCurrentArmor(2).getItem() == ModItems.wings;
     }
 }
